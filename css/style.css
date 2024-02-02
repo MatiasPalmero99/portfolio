@@ -1,0 +1,238 @@
+/* START */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* FUENTES */
+.font-code{
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+/* BUTTON DARK MODE *************************************/
+    .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+    }
+
+    .btn-bd-primary {
+    --bd-violet-bg: rgb(233, 20, 109);
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: rgb(217, 11, 97);
+    --bs-btn-hover-border-color: rgb(217, 11, 97);
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: rgb(217, 11, 97);
+    --bs-btn-active-border-color: rgb(217, 11, 97);
+    }
+
+    .bd-mode-toggle {
+    z-index: 1500;
+    }
+
+    .bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+    }
+
+/* END BUTTON DARK MODE **********************************/
+
+
+/* NAVBAR ************************************************/
+.navbar-brand:hover{
+  color: rgb(251, 0, 105);
+}
+
+.text-prim{
+    color: rgb(233, 20, 109);
+}
+
+.text-second{
+    color: #5ac7dc;
+}
+
+.nav-link:hover{
+    color: rgb(233, 20, 109);
+} 
+
+.navbar-nav .nav-link.active{
+    color: rgb(233, 20, 109);
+
+    /* background-color: black;   */
+    border-bottom: 3px solid rgb(233, 20, 109);  
+}
+/* FIN NAVBAR *******************************************/
+
+
+
+
+/* INICIO SECTION ****************************************/
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main h3 small{
+    font-weight: 400;
+}
+.welcome h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-decoration-color: rgb(202, 18, 95);
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+@media (max-width: 576px) {
+    .main h3{
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+    .main h3 small{
+        font-weight: 100;
+    }
+
+    .welcome h6{
+        font-size: 1.2rem;
+        text-decoration-thickness: 2px;
+    }
+}
+  
+
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover{
+    background-color: rgb(202, 18, 95);
+    transition: 0.5s;
+}
+
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20 , 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2:hover{
+    background-color: rgb(233, 20 , 109);
+    transition: 0.5s;
+    color: #fff;
+}
+
+main .icon-header{
+    font-size: 40px;
+    --bs-icon-link-transform: translate3d(0, -.300rem, 0);
+}
+
+/* INICIO SECTION *********************************************/
+
+
+/* ABOUT SECTION ************************************************/
+
+h1{
+    font-weight: 900;
+    color: rgb(233, 20, 109);
+}
+
+.skills h6{
+    color: rgb(233, 20, 109);
+    font-size: 1.0rem;
+    text-transform: uppercase;
+}
+
+.skills_image{
+    width: 350px;
+    height: 220px;
+}
+
+ /* Boton descargar cv */
+    .download-cv{
+        height: 55px;
+        width: 150px;
+        background-color: rgb(233, 20, 109);
+        color: #fff;
+        text-decoration: none;
+        padding: 13px 25px;
+        border-radius: 5px;
+    }
+
+    .download-cv:hover{
+        background-color: rgb(202, 18, 95);
+        transition: 0.5s;
+    }
+
+/* END ABOUT SECTION ********************************************/
+
+
+/* EXPERIENCIA **************************************************/
+.col .contents{
+	padding: 0px 30px;
+	border-left: 2px solid #bababa;
+}
+.col .contents .box{
+	position: relative;
+}
+.col .contents .box::before{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	right: calc(100% + 22px);
+	background-color: rgb(237, 50, 128);
+}
+.box h4{
+	position: relative;
+	color: rgb(237, 50, 128);
+}
+.box h3{
+	font-size: 19px;
+	padding: 10px 0px 6px;
+	font-family: helvetica;
+	color: #444;
+}
+.box p{
+	line-height: 1.2;
+	color: #666;
+	font-size: 17px;
+}
+/* END-EXPERIENCIA *********************************************/
+
+
+/* FOOTER ******************************************************/
+
+footer .icon-up{
+    color: rgb(237, 50, 128);
+    font-size: 30px;
+}
+
+footer .icon-up:hover{
+    color: rgb(202, 18, 95);
+    transition: 0.1s;
+}
+
+footer .icon-foot{
+    font-size: 30px;
+    --bs-icon-link-transform: translate3d(0, -.200rem, 0);
+}
+
+
