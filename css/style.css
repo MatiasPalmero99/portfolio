@@ -89,22 +89,6 @@
     text-decoration-thickness: 3px;
 }
 
-@media (max-width: 576px) {
-    .main h3{
-        font-size: 2.7rem;
-        font-weight: 700;
-    }
-    .main h3 small{
-        font-weight: 100;
-    }
-
-    .welcome h6{
-        font-size: 1.2rem;
-        text-decoration-thickness: 2px;
-    }
-}
-  
-
 .main .bt1{
     height: 55px;
     width: 138px;
@@ -153,32 +137,25 @@ h1{
     color: rgb(233, 20, 109);
 }
 
-.skills h6{
-    color: rgb(233, 20, 109);
-    font-size: 1.0rem;
-    text-transform: uppercase;
-}
 
-.skills_image{
-    width: 350px;
-    height: 220px;
-}
 
  /* Boton descargar cv */
-    .download-cv{
-        height: 55px;
-        width: 150px;
-        background-color: rgb(233, 20, 109);
-        color: #fff;
-        text-decoration: none;
-        padding: 13px 25px;
-        border-radius: 5px;
-    }
+.download-cv{
+    height: 55px;
+    width: 150px;
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+}
 
-    .download-cv:hover{
-        background-color: rgb(202, 18, 95);
-        transition: 0.5s;
-    }
+.download-cv:hover{
+    background-color: rgb(202, 18, 95);
+    transition: 0.5s;
+}
+/* ********************* */
+
 
 /* END ABOUT SECTION ********************************************/
 
@@ -218,6 +195,15 @@ h1{
 /* END-EXPERIENCIA *********************************************/
 
 
+
+/* PROYECTOS */
+.skills_image{
+    width: 350px;
+    height: 220px;
+}
+
+
+
 /* FOOTER ******************************************************/
 
 footer .icon-up{
@@ -235,4 +221,30 @@ footer .icon-foot{
     --bs-icon-link-transform: translate3d(0, -.200rem, 0);
 }
 
+
+
+
+/* MEDIA */
+@media (max-width: 576px) {
+    /* INICIO SECTION ****************************************/ 
+    .main h3{
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+    .main h3 small{
+        font-weight: 100;
+    }
+
+    .welcome h6{
+        font-size: 1.2rem;
+        text-decoration-thickness: 2px;
+    }
+
+    /* ABOUT SECTION ************************************************/
+
+    .font-size-resp{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
 
