@@ -193,7 +193,20 @@ h1{
 	font-size: 17px;
 }
 
+.go-page{
+    font-size: 30px;
+    background-color: transparent; 
+    border: 1px solid rgb(233, 20 , 109);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
 
+.go-page:hover{
+    background-color: rgb(233, 20 , 109);
+    transition: 0.5s;
+    color: #fff;
+}
 /* END-EXPERIENCIA *********************************************/
 
 
