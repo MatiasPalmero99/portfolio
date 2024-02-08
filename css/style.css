@@ -54,7 +54,7 @@
 }
 
 .text-second{
-    color: #5ac7dc;
+    color: #03a3cf;
 }
 
 .nav-link:hover{
@@ -192,6 +192,21 @@ h1{
 	color: #666;
 	font-size: 17px;
 }
+
+.go-page{
+    font-size: 30px;
+    background-color: transparent; 
+    border: 1px solid rgb(233, 20 , 109);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+
+.go-page:hover{
+    background-color: rgb(233, 20 , 109);
+    transition: 0.5s;
+    color: #fff;
+}
 /* END-EXPERIENCIA *********************************************/
 
 
@@ -202,6 +217,9 @@ h1{
     height: 220px;
 }
 
+.flecha{
+    font-size: 50px;
+}
 
 
 /* FOOTER ******************************************************/
@@ -220,7 +238,6 @@ footer .icon-foot{
     font-size: 30px;
     --bs-icon-link-transform: translate3d(0, -.200rem, 0);
 }
-
 
 
 
@@ -245,6 +262,16 @@ footer .icon-foot{
     .font-size-resp{
         font-size: 1.1rem;
         font-weight: 500;
+    }
+
+
+
+    /* EXPERIENCIA **************************************************/  
+    .box h3{
+        font-size: 17px;
+    }
+    .box p{
+        font-size: 15px;
     }
 }
 
