@@ -192,26 +192,11 @@ h1{
 	color: #666;
 	font-size: 17px;
 }
-
-.go-page{
-    font-size: 30px;
-    background-color: transparent; 
-    border: 1px solid rgb(233, 20 , 109);
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 3px 6pxg;
-}
-
-.go-page:hover{
-    background-color: rgb(233, 20 , 109);
-    transition: 0.5s;
-    color: #fff;
-}
 /* END-EXPERIENCIA *********************************************/
 
 
 
-/* PROYECTOS */
+/* PROYECTOS **************************************************/
 .skills_image{
     width: 350px;
     height: 220px;
@@ -220,6 +205,25 @@ h1{
 .flecha{
     font-size: 50px;
 }
+
+.go-page{
+    color: rgb(233, 20, 109);
+    border: 1px solid rgb(233, 20, 109);
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+
+.go-page:hover{
+    background-color: rgb(233, 20 , 109);
+    transition: 0.5s;
+    color: #fff;
+
+}
+/************************************************************/
+
 
 
 /* FOOTER ******************************************************/
@@ -238,6 +242,7 @@ footer .icon-foot{
     font-size: 30px;
     --bs-icon-link-transform: translate3d(0, -.200rem, 0);
 }
+/************************************************************/
 
 
 
