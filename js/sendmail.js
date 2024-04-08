@@ -7,12 +7,12 @@ document.getElementById('form')
    btn.value = 'Enviando...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_n8t16zl';
+   const templateID = 'template_d50qrsb';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'ENVIAR';
-    Swal.fire({
+      Swal.fire({
         title: "!Correo enviado exitosamente!",
         icon: "success"
       });
